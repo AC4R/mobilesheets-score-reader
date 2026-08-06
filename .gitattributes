@@ -1,0 +1,13 @@
+# Default behavior
+# Language detection rules
+# Normalize line endings
+go.sum linguist-generated
+*.jpg binary
+
+public/**/*.html linguist-vendored
+dist/* linguist-vendored
+src/*.ts linguist-detectable
+*.svg text
+*.jpeg binary
+*.yml linguist-detectable=false
+# eof b9fecd1a
